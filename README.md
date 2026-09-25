@@ -1,4 +1,4 @@
-Moved this project here over from [CS550 Advanced Operating Systems](https://github.com/amitnikam/cs550_Advanced-Operating-Systems/tree/main/Homework%20Assignments/PA4/Code) repo.
+Originally built for CS550 Advanced Operating Systems at Illinois Institute of Technology (Fall 2020). See [DESIGN.md](DESIGN.md) for the architecture, protocol, and known limitations.
 
 # P2P File Storage Cluster with Leader Election
 
@@ -16,4 +16,3 @@ A peer-to-peer file sharing cluster in Python where every node both hosts and do
 
 Put files to share in `hosted_files/<port>/`. Start more nodes on other ports (9000–9129) to form a cluster. Add `-t` for automated test mode with bandwidth logging.
 
-Originally built for CS550 Advanced Operating Systems at Illinois Institute of Technology (Fall 2020). See [DESIGN.md](DESIGN.md) for the architecture, protocol, and known limitations.
